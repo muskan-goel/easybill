@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pro1Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="138dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Maggi"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="373dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="72dp"
+        android:text="Maggi 2-Minute instant Noodles,Masala-70g pouch"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15.5sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="247dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="4dp"
+        android:contentDescription="@string/star_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/star2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="362dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="20dp"
+        android:text="Price: Rs 10.00(Rs 17.14/100g)"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="137dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="165dp"
+        android:contentDescription="@string/maggi_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/maggi" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="212dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="15dp"
+        android:text="MAGGI 2-Minute Instant Noodles with your favourite masala taste! MAGGI Masala Noodles is made with the choicest quality spices and ingredients for the taste your heart loves. Each serve (70g) provides 15percent of your daily Iron requirement."
+        android:textColor="#8BC34A"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="51dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/veg_symbol" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="350dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="8dp"
+        android:text="Special offers and product promotions."
+        android:textColor="#352828"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="350dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginEnd="10dp"
+        android:text="10 percent Instant Discount up to Rs. 1000 on minimum order of Rs. 5,000 with SBI Credit cards and Credit Card EMIs. "
+        android:textColor="#1C0101"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/h1"
+        android:layout_width="380dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886">
+
+        <LinearLayout
+            android:id="@+id/gallery1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:scrollbars="horizontal">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="152dp"
+                android:layout_height="98dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/shop1" />
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="136dp"
+                android:layout_height="98dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/shop2" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="169dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:src="@drawable/shop3" />
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="141dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:src="@drawable/shop4" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

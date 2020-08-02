@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_marginHorizontal="100dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="70dp"
+        android:text="SCAN"
+        android:background="@drawable/round_button"
+        android:id="@+id/scanBtn" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/image1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:text="It is a safe scan method, your data is secured."
+        android:textSize="15sp"
+        android:textColor="@color/colorAccent">
+    </TextView>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Name:"
+        android:textColor="#404040"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="99dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="95dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="24dp" />
+
+    <TextView
+
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Cost:"
+        android:textColor="#404040"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="280dp"
+        android:text="Add Item"
+        android:id="@+id/additem"
+        android:background="@drawable/round_button"
+        />
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/additem"
+        android:src="@drawable/th">
+
+    </ImageView>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="220dp"
+        android:text="PAY"
+        android:background="@drawable/round_button"
+        android:id="@+id/pay"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>

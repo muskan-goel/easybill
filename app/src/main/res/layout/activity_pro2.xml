@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pro2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="182dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="Dairy Milk"
+        android:textColor="#9C27B0"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="94dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dairy_milk_2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="167dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="@string/star_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/star2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="384dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="6dp"
+        android:text="Cadbury Dairy Milk Silk Chocolate Bar 60 g."
+        android:textColor="#7f0000"
+        android:textSize="17.5sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="224dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="3dp"
+        android:text="Cadbury dairy milk is all about regaling in the chocolate's richness and creaminess.Indulge in the irresistible taste of silk Indulge in a rich, smooth and creamy celebration."
+        android:textColor="#9C27B0"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="53dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="318dp"
+        android:layout_marginEnd="190dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/veg_symbol" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="400dp"
+        android:text="Special offers and product promotions."
+        android:textColor="#1c0101"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="384dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="427dp"
+        android:text="10 percent Instant Discount up to Rs. 1000 on minimum order of Rs. 5000 with SBI Credit cards and Credit Card EMIs."
+        android:textColor="#1c0101"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Price: Rs 20.00"
+        android:textColor="#9C27B0"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <HorizontalScrollView
+        android:id="@+id/h1"
+        android:layout_width="380dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886">
+
+        <LinearLayout
+            android:id="@+id/gallery1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:scrollbars="horizontal">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="152dp"
+                android:layout_height="98dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/shop1" />
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="136dp"
+                android:layout_height="98dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/shop2" />
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="171dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:src="@drawable/shop3" />
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="141dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitStart"
+                android:src="@drawable/shop4" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
